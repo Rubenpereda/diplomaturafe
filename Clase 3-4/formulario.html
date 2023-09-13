@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+</head>
+<body>
+    <h2>Complete el siguiente formulario</h2>
+    <form action="">
+        <p>
+            <label for="">Nombre</label>
+            <input type="type" />
+        </p>
+        <p>
+            <input type="text" placeholder="Apellido">
+        </p>
+        <p>
+            <label for="">Contraseña</label>
+            <input type="password">
+        </p>
+        <p>
+            <label for="">Sexo</label>
+            <ul>
+                <li>
+                    <input type="radio" value="Mujer" name="Sexo">
+                    <label for="">Mujer</label>
+                </li>
+                <li>
+                    <input type="radio" value="Hombre" name="Sexo">
+                    <label for="">Hombre</label>
+                </li>
+                <!-- type="radio" es para elegir una opcion entre las que están-->
+            </ul>
+        </p>
+        <p>
+            <label>Hobbies</label>
+            <ul>
+                <li>
+                    <input type="checkbox" name="hobbies []" value="bailar">
+                    <label for="">bailar</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="hobbies []" value="cantar">
+                    <label for="">cantar</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="hobbies []" value="correr">
+                    <label for="">correr</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="hobbies []" value="nadar">
+                    <label for="">nadar</label>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <label for="">Estudios</label>
+            <select name="" id="">
+                <option value="primario">Primario</option>
+                <option value="secundario">Secundario</option>
+            <option value="terciario">Terciario</option>
+            <option value="universitario">Universitario</option>
+        </select>
+        </p>
+        <p>
+            <label>Comentarios/Quejas/Sugerencias</label>
+            <textarea name=""></textarea>
+        </p>
+        <p>
+            <label for="">Fecha de nacimiento</label>
+            <input type="date">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+</body>
+</html>
