@@ -1,0 +1,23 @@
+.caja{
+    background-color: yellow;
+    width: 50%;
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 0 0 5px gray;
+    border:3px solid white;
+    border-radius: 0 20px;
+    /* 10px 20px 23px grey; si lo pongo en negativo el valor va hacia arriba*/
+}
+.texto{
+    background-color: rgb(196, 196, 146);
+    column-count: 2;
+    column-gap: 60px;
+    column-rule: 1px solid black;
+    padding: 20px;
+    margin: 15px;
+}
+.texto p{
+    margin: 0;
+    color: rgb(22, 22, 22);
+    text-align: center;
+}

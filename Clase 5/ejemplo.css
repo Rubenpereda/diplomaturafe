@@ -1,0 +1,16 @@
+#rojo{
+    background-color: red;
+    width: 250px;
+    padding:20px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    /*siempre que se utilize padding y border se utlizia border box para que no se descontrole el diseño*/
+    /*height:400px;*/
+}
+#azul{
+    background-color: blue;
+    width: 250px;
+    color: white;
+    margin: 20px 10px;
+
+}
