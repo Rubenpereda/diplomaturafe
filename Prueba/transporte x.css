@@ -1,0 +1,94 @@
+body{
+    font-family: SF Pro Display;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content:left;
+    background-color: #3271BA;
+    width: 100wv;
+    height: 100px;
+    padding: 0 151px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.logo h1{
+    color: white;
+    font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #60B2FF;
+    height: 30px;
+    padding: 0 80px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav a{
+    align-items: center;
+    display:inline-flex;
+    color: #2E2E2E;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+nav a:hover{
+    color: white;
+    background-color:#4680c2;
+    padding: 7px 15px 7px 15px;
+}
+
+div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen{
+    width: 1000px;
+    height: 305px;
+    padding: 0 183px;
+}
+
+.bienvenidos{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 170px;
+    color: #3271BA;
+}
+
+.texto {
+    display: flex;
+    justify-content:space-between;
+    text-align: justify;
+    padding: 0 70px;
+}
+
+.texto h2{
+    background-color: #adadad;
+    padding: 40px 70px;
+}

@@ -1,0 +1,16 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;*/
+
+p{
+    color: purple;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    color: blue;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 i{
+    color: grey;
+}
