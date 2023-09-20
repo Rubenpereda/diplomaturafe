@@ -10,7 +10,9 @@ header{
     align-items: center;
     padding: 10px;
 }
-
+p{
+    margin: 0;
+}
 .logo{
     display: flex;
     justify-content: center;
@@ -45,22 +47,42 @@ nav a:hover{
     font-size: 17px;
 }
 
-.container{
+.presentacion{
     text-align: center;
     justify-content: center;
 }
 
-.container h2{
+.presentacion h2{
 font-size: 60px;
 }
 
-.container p{
-    text-align: center;
-    background-color:	#eeeeee;
-    width: 400px;
+.presentacion img{
+    width: 900px;
+}
+
+.contenido{
+    background-color: rgb(240, 240, 240);
     height: 500px;
-    padding: 50px 90px;
-    margin: 70px 380px;
-    border-radius: 5%;
-    box-shadow: 4px 4px 30px grey;
+}
+
+.contenido p{
+    text-align: center;
+}
+
+.contenido{
+    display: flex;
+    column-gap: 3;
+    column-gap: 60px;
+}
+
+.uno{
+    height: 200px;
+}
+
+.dos{
+    height: 200px;
+}
+
+.tres{ 
+    height: 200px;
 }
